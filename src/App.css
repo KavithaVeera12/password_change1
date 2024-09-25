@@ -1,0 +1,83 @@
+.c1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.c2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.p1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px; 
+}
+/* AdminDashboard.css */
+.admin-dashboard {
+  display: flex;
+  height: 580px;
+}
+
+.sidebar {
+  width: 200px;
+background-color: white;
+  padding: 20px;
+  color: black;
+  
+}
+
+.d1 {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: lightcyan;
+}
+
+
+@media (max-width: 768px) {
+  .admin-dashboard {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+}
+.sidebar ul{
+  list-style-type: none;
+
+}
+.d2 {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: black;
+}
+.d3 {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: lightcyan;
+}
+.d4 {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+.d5 {
+  flex-grow: 1;
+  padding: 20px;
+
+}
+.d6{
+  flex-grow: 1;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+
+
+
